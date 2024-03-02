@@ -1,0 +1,323 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: rgb(114, 79, 114);
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    padding: 0 15vw;
+
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333;
+    padding: 50px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.texto {
+    font-family: "Kalam", cursive;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+
+
+}
+
+
+
+
+.tranca-img {
+    width: 30vw;
+    height: 600px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.212);
+    margin: 40px 0px;
+
+
+}
+
+#curso-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5)
+    
+
+
+}
+
+#curso-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+a > p {
+    text-align: center;
+
+
+ }
+
+ p {
+    font-size: 20px;
+    text-align: center;
+
+ }
+
+ h2 {
+    font-size: 30px;
+}
+
+.subtitle {
+    font-size: 26px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+
+ }
+
+ #apr-curso {
+    margin-top: 65px;
+    padding: 0;
+    margin-bottom: 50px;
+   
+ }
+
+#apr-curso > p {
+    color: white;
+    font-family: "Cinzel", serif;
+    font-size: 60px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.418);
+    justify-content: center;
+    margin: 0;
+}
+
+#coroa {
+    width: 100px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: rotate(-40deg);
+}
+
+#circulo {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* #imgbox { */
+    /* background-color: purple; */
+    /* width: fit-content; */
+    /* height: 600px; */
+    /* border: 5px solid white; */
+    /* box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.212); */
+    /* margin: auto; */
+    /* margin-bottom: 50px; */
+/* } */
+
+#ash{
+    width: 600px;
+    height: 800px;
+    position: relative;
+    margin-top: -200px;
+    z-index: 1;
+
+
+}
+
+#wpp {
+    animation: pulse 2s infinite;
+    width: 3vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+.encerramento {
+    font-family: "Kalam", cursive;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
+    text-align: center;
+    margin: 50px;
+    padding: 0 15vw;
+
+}
+
+.botao {
+
+    border:3px solid #a72ec5;
+    background: #a72ec5;
+    color: #ffffff;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:20px;
+    padding:6px 10px;
+    margin-bottom: 50px;
+    text-decoration:none;
+        
+}
+
+#botao-info {
+
+    border:3px solid #a72ec5;
+    background: #a72ec5;
+    color: #ffffff;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:20px;
+    padding:6px 10px;
+    text-decoration:none;
+    text-align: center;
+    margin-bottom: 25px;
+        
+}
+
+#botao-info:hover {
+    background: rgb(255, 255, 255);
+    border: 3px solid #a72ec5;
+    color: #a72ec5;
+}
+
+.botao:hover {
+    background: rgb(255, 255, 255);
+    border: 3px solid #a72ec5;
+    color: #a72ec5;
+
+}
+
+#div1 {
+
+    text-align: center;
+}
+
+@keyframes pulse {
+    0%, 100% {transform: scale(1);}
+    50% { transform: scale(1.2);}
+    
+}
+
+
+@media (max-width: 1300px) {
+    .tranca-img {
+        width: 400px;
+        height: auto;
+    }
+
+    #ash {
+        width: 45vw;
+    }
+
+    #circulo {
+        width: 350px;
+        height: 350px;
+    }
+
+    #ash {
+        width: auto;
+        
+    }
+
+}
+
+
+@media (max-width: 760px) {
+
+    .tranca-img {
+        width: 300px;
+        height: auto;
+    }
+
+    #circulo {
+        width: 300px;
+        height: 300px;
+    }
+
+    #ash {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .tranca-img {
+        width: 200px;
+        height: auto;
+    }
+
+    #circulo {
+        width: 250px;
+        height: 250px;
+    }
+
+    #ash {
+        width: 400px;
+    }
+
+}
+
+
